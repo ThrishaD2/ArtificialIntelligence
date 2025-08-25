@@ -64,3 +64,62 @@ def play_game():
 
 if __name__ == "__main__":
     play_game()
+
+
+#############OUTPUT#################
+ |   |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Player X, enter your move (row and column: 1 1): 1 1
+X |   |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Player O, enter your move (row and column: 1 1): 1 2
+X | O |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Player X, enter your move (row and column: 1 1): 1 3
+X | O | X
+---------
+  |   |  
+---------
+  |   |  
+---------
+Player O, enter your move (row and column: 1 1): 2 2
+X | O | X
+---------
+  | O |  
+---------
+  |   |  
+---------
+Player X, enter your move (row and column: 1 1): 3 3
+X | O | X
+---------
+  | O |  
+---------
+  |   | X
+---------
+Player O, enter your move (row and column: 1 1): 3 1
+X | O | X
+---------
+  | O |  
+---------
+O |   | X
+---------
+Player X, enter your move (row and column: 1 1): 2 3
+X | O | X
+---------
+  | O | X
+---------
+O |   | X
+---------
+Player X wins!
